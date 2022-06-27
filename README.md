@@ -1,5 +1,9 @@
 # test
 
+## Vuex + TypeScript
+Documentation:
+https://vuex.vuejs.org/guide/typescript-support.html#simplifying-usestore-usage
+
 ## Project setup
 ```
 npm install
