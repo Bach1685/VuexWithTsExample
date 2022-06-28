@@ -10,9 +10,7 @@ import { key, store } from "./store";
 
 export default defineComponent({
   computed: {
-    getNumber() {
-      return store.getters.getCountModule;
-    },
+    ...mapGetters({ getNumber: "test/getCountModule" }),
   },
   methods: {
     setCount() {

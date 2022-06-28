@@ -12,4 +12,5 @@ export const testModule = {
       return state.countModule;
     },
   },
+  namespaced: true,
 };
